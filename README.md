@@ -1,30 +1,31 @@
 # Implementation-of-Linear-Regression-Using-Gradient-Descent
 
 ## AIM:
+
 To write a program to predict the profit of a city using the linear regression model with gradient descent.
 
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Jupyter notebook
+## Equipments Required:'
+
+- Hardware – PCs
+- Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Upload the file to your compiler.
 
-2.Type the required program.
+- Upload the file to your compiler.
 
-3.Print the program.
+- Type the required program.
 
-4.End the program.
+- Print the program.
+
+- End the program.
 
 
 ## Program:
-```
-/*
-/*
+```py
 Program to implement the linear regression using gradient descent.
 Developed by: MIDHUN AR
 RegisterNumber:212222240066  
-*/
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -94,18 +95,27 @@ print("For population = 70,000 , we predict a profit of $"+str(round(predict2,0)
 ```
 
 ## Output:
+### 1. Profit Prediction graph
+
+
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/ade7d394-96f8-4eff-a7a8-d67d71b58b27)
+### 2.Compute Cost Value
+
 
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/5436abbd-7265-4e59-b403-d98ef139d902)
+### 3.h(x) Value
 
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/ee64d2eb-0b85-498e-87ef-53a0f4e5a0c0)
+### 4.Cost function using Gradient Descent Graph
 
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/0e522f54-44e9-473c-98f0-4869c4164cf4)
+### 5.Profit Prediction Graph
 
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/a0094920-3d6d-41f9-ad1d-1d37c661c59a)
+###6.Profit for the Population 35,000
 
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/30711e74-3b36-4f2d-b07d-63f0c1d2b8bf)
-
+### 7.Profit for the Population 70,000
 ![image](https://github.com/MidhunArPrabhu/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/118054670/6495fb92-5c76-4fe3-bf31-2854e9f3dc48)
 
 
